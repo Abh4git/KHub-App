@@ -1,0 +1,22 @@
+.header-container {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header {
+    padding: 20px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 80px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

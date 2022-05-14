@@ -1,0 +1,13 @@
+.search-container {
+    width: 70vw;
+    padding: 25px;
+    background: var(--primary-color);
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

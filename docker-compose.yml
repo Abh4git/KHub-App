@@ -1,0 +1,17 @@
+version: "3.6"
+
+services:
+   
+    # Run the Dockerfile to build the client React application
+    # Dockerfile should build React app and copy it to a simple Nginx container for hosting
+    client:
+        image: khub-app
+        stdin_open: true
+        ports:
+          - "3002:3000" #As per availability on VMA48 set to 3002
+        networks:
+          - khub-wide-network
+        
+networks:
+    khub-wide-network:
+        external: true

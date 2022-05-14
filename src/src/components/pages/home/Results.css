@@ -1,0 +1,13 @@
+.results-container {
+    width: 70vw;
+    margin-top: 20px;
+    background: var(--primary-color);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
