@@ -5,4 +5,4 @@ export const LOCAL_AUTH_BASE_URL = "https://khubapp.indusklabs.net/api/api/auth"
 export const LOCAL_API_BASE_URL = "https://khubapp.indusklabs.net/capi/api";
 
 
-export const CLIENT_SALT = "$2a$10$60uX4qjyRIgMz6A/XgNtZu";
+export const CLIENT_SALT = "$2a$10$60uX4qjyRIgMz6A/YfXfAu";
